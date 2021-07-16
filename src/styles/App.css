@@ -17,7 +17,8 @@ button{
 .selection-box{
     display: flex;
     justify-content: space-between;
-    margin: 2rem 0;
+    /* margin: 2rem 0; */
+    padding: 0;
 }
 
 .desc-box{
