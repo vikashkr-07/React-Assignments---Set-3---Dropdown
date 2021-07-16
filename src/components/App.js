@@ -1,5 +1,6 @@
 import React, { useState,useReducer } from "react";
 import "./../styles/App.css";
+import States from "./States";
 
 
 const states = [{
@@ -143,7 +144,7 @@ function App()
 	// Do not alter/remove main div
 	return (
 	<div id="main">
-		
+		 <States  states={states}/>
 	</div>
 	);
 }

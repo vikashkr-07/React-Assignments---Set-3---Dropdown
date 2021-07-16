@@ -14,3 +14,14 @@ button{
 .bg-pink{
 	background-color:pink;
 }
+.selection-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.desc-box{
+    background-color: gold;
+    border: 2px solid gold;
+    border-radius: 8px;
+}
